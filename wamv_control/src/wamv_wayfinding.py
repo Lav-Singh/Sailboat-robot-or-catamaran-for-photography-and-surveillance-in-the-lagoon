@@ -10,6 +10,19 @@ from Tools.controller import PIDController
 from Tools.utilities import  gps_to_enu, quaternion_to_euler, euler_to_quaternion, normalize_angle
 from dynamic_reconfigure.server import Server
 from math import atan2, sqrt, pi
+"""
+// Project Title   : Sailboat robot (or catamaran) for photography and surveillance in the lagoon.
+// Purpose         : Development of a control system in a simulated environment so that it can be used in a working prototype
+// Language        : Python and ROS
+// Author          : Ramessur Lav Singh
+// Github          : https://github.com/hemantramphul/Localization-and-tracking-of-moving-targets-by-hydrophones/
+// Date            : 19 June 2023
+
+// Université des Mascareignes (UdM)
+// Faculty of Information and Communication Technology
+// Master Artificial Intelligence and Robotics
+// Official Website: https://udm.ac.mu
+"""
 
 class Navigation:
     def __init__(self):
