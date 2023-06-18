@@ -15,7 +15,7 @@ from math import atan2, sqrt, pi
 // Purpose         : Development of a control system in a simulated environment so that it can be used in a working prototype
 // Language        : Python and ROS
 // Author          : Ramessur Lav Singh
-// Github          : https://github.com/hemantramphul/Localization-and-tracking-of-moving-targets-by-hydrophones/
+// Github          : https://github.com/Lav-Singh/Sailboat-robot-or-catamaran-for-photography-and-surveillance-in-the-lagoon
 // Date            : 19 June 2023
 
 // Université des Mascareignes (UdM)
