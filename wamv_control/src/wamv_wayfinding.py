@@ -12,7 +12,7 @@ from dynamic_reconfigure.server import Server
 from math import atan2, sqrt, pi
 """
 // Project Title   : Sailboat robot (or catamaran) for photography and surveillance in the lagoon.
-// Purpose         : Development of a control system in a simulated environment so that it can be used in a working prototype
+// Purpose         : Development of a control system in a simulated environment so that it can be used in a working prototype. This node computes the angular and linear velocities for the WAMV
 // Language        : Python and ROS
 // Author          : Ramessur Lav Singh
 // Github          : https://github.com/Lav-Singh/Sailboat-robot-or-catamaran-for-photography-and-surveillance-in-the-lagoon
