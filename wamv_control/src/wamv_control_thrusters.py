@@ -4,6 +4,19 @@ import rospy
 from geometry_msgs.msg import Twist
 from std_msgs.msg import Float32
 
+"""
+// Project Title   : Sailboat robot (or catamaran) for photography and surveillance in the lagoon.
+// Purpose         : Development of a control system in a simulated environment so that it can be used in a working prototype. This node sends control signal to the port and starboard thrusters of the WAMV
+// Language        : Python and ROS
+// Author          : Ramessur Lav Singh
+// Github          : https://github.com/Lav-Singh/Sailboat-robot-or-catamaran-for-photography-and-surveillance-in-the-lagoon
+// Date            : 19 June 2023
+
+// Université des Mascareignes (UdM)
+// Faculty of Information and Communication Technology
+// Master Artificial Intelligence and Robotics
+// Official Website: https://udm.ac.mu
+"""
 def constrain(input, low, high):
     '''
     Constrain input between lower and higher bounds.
