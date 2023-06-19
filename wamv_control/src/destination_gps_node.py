@@ -1,7 +1,19 @@
 #!/usr/bin/env python3
 import rospy
 from geometry_msgs.msg import PoseArray, Pose
+"""
+// Project Title   : Sailboat robot (or catamaran) for photography and surveillance in the lagoon.
+// Purpose         : Development of a control system in a simulated environment so that it can be used in a working prototype. This node publishes the waypoints
+// Language        : Python and ROS
+// Author          : Ramessur Lav Singh
+// Github          : https://github.com/Lav-Singh/Sailboat-robot-or-catamaran-for-photography-and-surveillance-in-the-lagoon
+// Date            : 19 June 2023
 
+// Université des Mascareignes (UdM)
+// Faculty of Information and Communication Technology
+// Master Artificial Intelligence and Robotics
+// Official Website: https://udm.ac.mu
+"""
 if __name__ == '__main__':
     rospy.init_node('destination_gps_publisher')
     pub = rospy.Publisher('destination_gps', PoseArray, queue_size=10)
