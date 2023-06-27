@@ -8,7 +8,6 @@ from sensor_msgs.msg import Imu
 from geometry_msgs.msg import Twist,PoseArray, Pose
 from Tools.controller import PIDController
 from Tools.utilities import  gps_to_enu, quaternion_to_euler, euler_to_quaternion, normalize_angle
-from dynamic_reconfigure.server import Server
 from math import atan2, sqrt, pi
 """
 // Project Title   : Sailboat robot (or catamaran) for photography and surveillance in the lagoon.
